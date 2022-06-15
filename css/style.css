@@ -1,0 +1,157 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  color: black;
+  font-size: 16px;
+  min-width: 1280px;
+}
+
+h1{
+  font-size: 30px;
+  text-align: center;
+  margin: 30px;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul, li{
+  display: block;
+  padding: 0;
+}
+
+.container{
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.blocks{
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.chicken{
+  background-color: #808080;
+  padding: 0px 0px 5px 10px;
+  border: 3px solid black;
+  box-sizing: border-box;
+  width: 30%;
+  margin-right: auto;
+  float: left;
+}
+
+.chicken h3{
+  background-color: #FFB6C1;
+  margin-left: 220px;
+}
+
+.beef{
+  background-color: #808080;
+  padding: 0px 0px 5px 10px;
+  border: 3px solid black;
+  box-sizing: border-box;
+  width: 30%;
+  margin-right: auto;
+  float: right;
+}
+
+.beef h3{
+  background-color: #B22222;
+  color: white;
+  margin-left: 220px;
+}
+
+.sushi{
+  background-color: #808080;
+  padding: 0px 0px 5px 10px;
+  border: 3px solid black;
+  box-sizing: border-box;
+  width: 30%;
+  margin-right: 40px;
+  float: right;
+}
+
+.sushi h3{
+  background-color: #F0E68C;
+  margin-left: 220px;
+}
+
+h3{
+  border: 3px solid black;
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+}
+
+p{
+  margin: 10px 0px;
+}
+
+@media (min-width: 950px) and (max-width: 1199px) {
+  .chicken{
+    width: 30%;
+  }
+  .beef{
+    width: 30%;
+  }
+  .sushi{
+    width: 30%;
+  }
+}
+@media (min-width: 576px) and (max-width: 950px) {
+  .chicken{
+    width: 45%;
+    margin: 20px;
+  }
+  .chicken h3{
+    margin-left: 400px;
+  }
+  .beef{
+    width: 45%;
+    margin: 20px;
+  }
+  .beef h3{
+    margin-left: 400px;
+  }
+  .sushi{
+    width: 90%;
+    margin: 20px;
+  }
+  .sushi h3{
+    margin-left: 900px;
+  }
+}
+
+@media (max-width: 576px) {
+  .chicken{
+    width: 90%;
+    margin: 20px;
+    float: inherit;
+  }
+  .chicken h3{
+    margin-left: 900px;
+  }
+  .beef{
+    width: 90%;
+    margin: 20px;
+    float: inherit;
+  }
+  .beef h3{
+    margin-left: 900px;
+  }
+  .sushi{
+    width: 90%;
+    margin: 20px;
+    float: inherit;
+  }
+  .sushi h3{
+    margin-left: 900px;
+  }
+}
